@@ -1,6 +1,7 @@
 {
-    "name": "voceconnect/post-selection-ui",
+    "name": "duanecilliers/post-selection-ui",
     "description": "A WordPress library to display a user interface to easily select posts from any post type",
+    "type": "wordpress-plugin",
     "license": "GPLv2+",
     "authors": [
         {
@@ -15,9 +16,5 @@
             "name": "Mat Gargano",
             "email": "mat@voceconnect.com"
         }
-    ],
-    "autoload": {
-        "classmap": ["src/Post_Selection_Box.php", "src/Post_Selection_UI.php"],
-        "files": ["post-selection-ui.php", "src/functions.php"]
-    }
+    ]
 }
